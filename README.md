@@ -78,4 +78,5 @@
 ## 📞 Contact
     Owner: Suraj Kumar Gupta
     Project Link: https://github.com/SurajGupta8/lseg-stockbot
+    Deploy URL: https://lseg-stockbot-f9l1g82py-suraj-guptas-projects-9cf4eaad.vercel.app/
     Email: surajkumargupta0092@gmail.com
