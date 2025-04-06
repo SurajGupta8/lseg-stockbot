@@ -1,4 +1,4 @@
-# ![StockBot Logo](./public/bot-30.png) LSEG StockBot Application
+# ![StockBot Logo](./public/bot-30.png) LSEG StockBot
 
 ## Table of Contents
 - [✨ Features](#-features)
@@ -9,8 +9,6 @@
 - [🛡️ Error Handling](#️-error-handling)
 - [📂 Project Structure](#-project-structure)
 - [🧰 Tech Stack](#-tech-stack)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
 - [📞 Contact](#-contact)
 
 ## ✨ Features
@@ -18,22 +16,20 @@
 | Feature | Description |
 |---------|-------------|
 | **Interactive Chat** | Natural conversation flow with bot prompts |
-| **Smart Autocomplete** | Type-ahead suggestions for exchanges/stocks |
+| **Smart Autocomplete** | Suggestions for exchanges/stocks |
 | **Error Resilient** | Comprehensive error handling at all levels |
 | **Navigation Controls** | Go back or restart conversation |
-| **Responsive Design** | Works on all device sizes |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- JavaScript (ES6)
-- ReactJs
-- CSS
+    - Node.js
+    - npm
 
 ### Installation
 1. Clone the repo:
    ```
-   git clone https://github.com/yourusername/stockbot.git
+   git clone https://github.com/SurajGupta8/lseg-stockbot
    ```
 2. Install dependencies:
     ```
@@ -42,10 +38,11 @@
 3. Start the app:
     ```
     npm run dev
-    ```4. Open http://localhost:5174/ in your browser
+    ```
+4. Open http://localhost:5173/ in your browser
 
 
-### 💻 Usage
+## 💻 Usage
 
 1. Bot greets you
 2. Select a stock exchange:
@@ -56,43 +53,29 @@
    - ← Go Back
    - 🏠 Main Menu
 
-### 🛡️ Error Handling: 
+## 🛡️ Error Handling: 
     The application handles errors gracefully with:
     - Error Boundaries for React component crashes
     - Data Validation for stock data integrity
     - Input Sanitization for user inputs
     - User-Friendly Messages with recovery options
 
-#### Common handled scenarios:
-    - Invalid/missing stock data
-    - Network issues
-    - Navigation errors
-    - Empty inputs
-
-### 📂 Project Structure
-    ```
+## 📂 Project Structure
     src/
     ├── components/         # Chatbot components
     ├── data/               # Dataset
     ├── styles/             # CSS Styles
     └── App.jsx             # Root component
 
-    ```
-    
 
-### 🧰 Tech Stack
+## 🧰 Tech Stack
     Frontend:
-    - React 18
+    - React
     - React Icons
     - PropTypes
     - CSS3
-    
-    Development:
-    - ESLint
-    - Prettier
-    - Git
 
-
-### 📞 Contact
-    Project Owner: Suraj Kumar Gupta
-    Project Link: https://github.com/yourusername/stockbot# lseg-stockbot
+## 📞 Contact
+    Owner: Suraj Kumar Gupta
+    Project Link: https://github.com/SurajGupta8/lseg-stockbot
+    Email: surajkumargupta0092@gmail.com
